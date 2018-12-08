@@ -1,0 +1,321 @@
+ /* *{ border: 1px solid blue ;}*/       
+body {
+  font-size: x-small; 
+  background-color: rgb(255,237,158); 
+  font-family:  Verdana, "Geneva CE", lucida, sans-serif;
+  }
+  
+html>body { 
+  font-size: small; 
+  }  
+  
+h3 {
+  text-align: center;
+  margin:0px; 
+  padding:15px; 
+  }
+
+a {
+  font-weight:bold;
+  }  
+
+a img {
+  border-width: 0px;
+  }
+
+p {
+  font-family: Georgia, "New York CE", utopia, serif;
+  text-align: justify
+  }
+
+.cistic {
+  clear:both;
+  }  
+
+
+#obalovaci 
+  {
+  margin: 0px auto; 
+  position: relative; 
+  height: 100%; 
+  top: 0px; 
+  width:760px;
+  }
+#jazyky 
+  {
+  text-align: right; 
+  color: #CCCCCC; 
+  font-size:1.2em;
+  padding-bottom:10px;
+  }
+
+#jazyky a,
+#jazyky a:visited 
+  {
+  color: black;
+  font-weight:bold;
+  text-decoration:none; 
+  padding-right: 10px;
+  }
+
+
+#hlavicka 
+  {
+  color: #000000; 
+  background-color: #FF9900;
+  box-shadow:  black 4px 6px 20px; 
+  text-shadow: 1px 2px 3px gray;  
+  border-radius: 5px;
+  background-image: url('obr_hlavicka_01.jpg'); 
+  background-repeat: repeat-y;
+  }
+
+#logo {
+  float:left; 
+  z-index: 10; 
+  border-radius: 5px;
+  padding: 15px 
+  }
+  
+
+#texthlavicky {
+  text-align: center;
+  float:right;
+  z-index: 10; 
+  top: 0px;
+  width: 540px;
+  padding: 15px 
+  }
+
+ 
+#texthlavicky h1 { 
+  font-size: 180%;
+} 
+ 
+#texthlavicky h2 { 
+  font-size: 130%;
+} 
+/* obdelnik pod id menu, submenu a navigace,
+ ktery ma nastevene stiny, tak aby byly videt po stranach*/  
+#obalmenu{
+  margin-top:20px; 
+  box-shadow: black 4px 6px 20px; 
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px; 
+  }  
+#menu 
+  {
+  background-color: rgb(254,109,3); 
+  text-align: center;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+  }
+
+#submenu 
+  {
+  background-color: rgb(50, 116, 255);
+  text-align: center;
+  z-index: 10;
+
+  }
+/*  line-height + .mainmenu ul  {  padding-top:1em } = min-height */
+#menu, #submenu{
+  min-height:4em;
+  line-height:3em;
+  }
+  
+  
+  
+
+#navigace 
+  {
+  background-color: white; 
+  color: black; 
+  padding: 5px;
+  font-size: 0.7em;
+  z-index: 10;
+  }
+  
+#navigace a,
+#navigace a:visited {
+  color: #800000;
+  font-weight:bold;
+  text-decoration:none; 
+  }
+    
+#obsah 
+  {
+  padding: 0px;
+  padding-bottom: 10px;
+  background-color: #ffffff; 
+  color: black;  
+  box-shadow: black 4px 6px 20px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  }
+  
+#obsah table{
+  border: 3px solid black;
+  text-align: center; 
+  border-collapse: collapse;
+  margin: auto;
+
+  padding: 10px;
+  }  
+  
+#obsah table td,
+#obsah table th{
+  border: 1px solid black;
+  padding: 10px;
+  }  
+
+#uvodAB{
+  background-color: rgb(255, 205,118);
+  box-shadow: black 4px 6px 20px; 
+  border-bottom-left-radius:  5px;
+  border-bottom-right-radius: 5px;  
+  z-index: 10;
+  background-image: url('obr_hlavicka_01.jpg'); 
+  background-repeat: repeat-y;
+  padding-bottom:10px;
+}  
+
+#uvodA{
+  float:left;
+  width: 43%;
+  margin-left: 5%;
+  margin-top:20px
+}
+
+#uvodB{
+  float:right;
+  width: 43%;
+  margin-right: 5%;
+  margin-top:20px
+}
+
+
+
+
+#uvodC{
+  clear:both;
+  width: 90%;
+  margin: 0px auto; 
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 60px;
+  z-index: 30; 
+  background-color: white;
+  box-shadow: black 4px 6px 20px; 
+  border-radius: 5px; 
+}
+
+.dlazdice {
+  background-color: rgb(255,255,255);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  box-shadow: black 4px 6px 20px; 
+  border-radius: 5px;
+  z-index: 20;
+  }
+
+
+
+#uvodAB a,
+#uvodAB a:visited {
+  width: 100%;
+  display: block;
+  color: black;
+  font-weight:bold;
+  font-size: 130%;
+  text-decoration:none; 
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgb(50, 116, 255); 
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+  }
+  
+#uvodAB p{
+  font-size: 0.9em;
+  padding:10px;
+  }
+  
+#uvodAB p a{
+  font-size: 0.9em;
+  }  
+
+
+
+#obsah p 
+  {
+  text-align: justify;  
+  padding-right: 10px; 
+  padding-left: 10px;
+  }
+
+#obsah h3 
+  {
+  padding-right: 10px; 
+  padding-left: 10px;
+  }
+
+/* menu */
+.mainmenu {
+	width: 100%;
+  }
+.mainmenu ul  {
+	list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding-top:1em;
+  overflow: hidden;
+  }
+
+.mainmenu ul li  {
+  float: left;
+  margin: 0em 0em  0em 1em;
+  }
+
+
+
+.mainmenu ul li a,
+.mainmenu ul li a:visited {
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+  font-style:normal;
+	display: block;
+  padding-left:10px;
+  padding-right:10px;
+  border-top-left-radius:  5px;
+  border-top-right-radius: 5px;
+  }  
+
+
+  
+#menu .mainmenu a:hover{
+  background: rgb(50, 116, 255);
+
+  }
+  
+#submenu .mainmenu a:hover{
+  background: white;
+  }
+    
+#menu .mainmenu a.zvyraznene  {
+  color: black;
+  background: rgb(50, 116, 255);
+  } 
+#submenu .mainmenu a.zvyraznene  {
+  color: black;
+  background: white;
+  } 
+
+.test p{
+  color:green;
+  }
+
+.mainmenu ul li:last-child a:after { color: red;}
+/*.mainmenu ul li:hover:last-child { color: red;}
+
+/* end of mainmenu css */

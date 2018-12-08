@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<style>
+*{ border: 1px solid blue ;} 
+.pomocny {clear:both;}  
+.menu{background-color: gray;}
+.mainmenu1,.mainmenu2, .mainmenu3 {width: 100%;}
+.mainmenu1 ul li, .mainmenu2 ul li, .mainmenu3 ul li  {float: left;  margin: 1em; display: block; }
+.mainmenu2 ul:after { clear:both; display: block;  content: ' '; }
+.mainmenu3 ul {overflow: hidden;}
+
+</style>
+</head>
+<body>
+
+<h1>Varianta I</h1> 
+  <div class=menu>
+      <div class="mainmenu1">
+        <ul>
+          <li><a href="" >Položka 1</a></li>
+          <li><a href="" >Položka 2</a></li>
+          <li><a href="" >Položka 3</a></li>
+        </ul>
+        <div class="pomocny"> </div>
+      </div> 
+  </div>
+  
+<h1>Varianta II</h1> 
+  <div class=menu>
+      <div class="mainmenu2">
+        <ul >
+          <li><a href="" >Položka 1</a></li>
+          <li><a href="" >Položka 2</a></li>
+          <li><a href="" >Položka 3</a></li>
+        </ul>
+      </div> 
+  </div>
+  
+<h1>Varianta III - overflow: hidden;</h1> 
+  <div class=menu>
+      <div class="mainmenu3">
+        <ul >
+          <li><a href="" >Položka 1</a></li>
+          <li><a href="" >Položka 2</a></li>
+          <li><a href="" >Položka 3</a></li>
+        </ul>
+      </div> 
+  </div>  
+</body>
+</html>

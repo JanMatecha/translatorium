@@ -1,0 +1,74 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+[Project tree]
+web04
+	+CZ
+		+Uvod
+			index.html
+		+Služby
+			sluzby.html
+			tlumoceni.html
+			korektury.html
+			souvisejici_sluzby.html
+			preklady.html
+		+Ceník
+			cenik.html
+			cenik_preklady.html
+			cenik_tlumoceni.html
+			cenik_korektury.html
+		+Reference
+			reference.html
+		+Kontakt
+			kontakt.html
+		+O mnnì
+			omne.html
+			kvalifikace.html
+		styly.css
+	+EN
+		+Uvod
+			index_en.html
+		+Kontakt
+			kontakt_en.html
+		+Reference
+			reference_en.html
+		+Cenik
+			cenik_en.html
+			cenik_tlumoceni_en.html
+			cenik_preklady_en.html
+			cenik_korektury_en.html
+		+Služby
+			tlumoceni_en.html
+			preklady_en.html
+			sluzby_en.html
+			korektury_en.html
+			souvisejici_sluzby_en.html
+		+O mnì
+			omne_en.html
+			kvalifikace_en.html
+	+PL
+		+O mnì
+			omne_pl.html
+			kvalifikace_pl.html
+		+Služby
+			tlumoceni_pl.html
+			preklady_pl.html
+		+Reference
+			reference_pl.html
+		+Cenik
+			cenik_pl.html
+		+Kontakt
+			kontakt_pl.html
+		+Uvod
+			index_pl.html
+[Open project files]
+[Selected Project Files]
+Main=
